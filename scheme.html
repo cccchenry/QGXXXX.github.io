@@ -358,14 +358,20 @@
 				box-shadow: 0 0 4px 4px #fff;
 			}
 		}
+		.container{
+			position:absolute;
+			top:50%;
+			height:50%;
+			transform:translate(-50%,-50%);
+		}
     </style>
 </head>
 <body>
-<div>
+<div class="container">
     <button><a id="login" href="#"><h1>点击登录跳转学习强国app</h1></a></button>
 </div>
 <div id="wx" class="wx"></div>
-<div id="qrcode" style="margin-top: 10px">
+<div id="qrcode" style="margin-top: 10px" class="container">
     <img id="img" src="#"  alt="#"/>
 </div>
 <p class="word">学习强国</p>
